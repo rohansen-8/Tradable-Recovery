@@ -1,0 +1,12 @@
+{
+  "seed": 84,
+  "n_basis": 5,
+  "T": 24,
+  "min_train_dates": 8,
+  "grid_selected_lambda": 0.0012589254117941675,
+  "grid_selected_mean_loss": 0.6798045835124815,
+  "optuna_100_trial": {
+    "lambda": 0.0013760037406907943,
+    "mean_loss": 0.6798026956723773
+  }
+}

@@ -1,0 +1,10 @@
+Region,Restriction,economic_DGP_null_holds,economic_DGP_min_theta,regularized_null_percent_T500,rejection_5pct_percent_T500,regularized_null_percent_T1000,rejection_5pct_percent_T1000,regularized_null_percent_T2000,rejection_5pct_percent_T2000,regularized_null_percent_T5000,rejection_5pct_percent_T5000,regularized_null_percent_T10000,rejection_5pct_percent_T10000
+Near ATM,Concavity,0,-0.257163452192946,0,12.7,0,10.7,0,8.2,0,7,0,7.8
+OTM Put,Concavity,0,-0.286227296260019,0,8.6,0,6.3,0,5.7,0,6.5,0,6.4
+OTM Call,Concavity,0,-0.234508530996136,0,10,0,8.9,0,7.8,0,6.8,0,6.2
+Near ATM,Convexity,1,0.235845679224516,100,3.1,100,2.1,100,4.1,100,2.4,100,3.5
+OTM Put,Convexity,1,0.258673316173404,0,4.1,0,3.4,0,4.3,0,4.4,0,5.1
+OTM Call,Convexity,1,0.213227520930167,100,4,100,2.3,100,4.5,100,3.7,100,4.7
+Near ATM,Monotonicity,NaN,-0.00313865491562358,100,6.1,100,4.6,100,4,100,5.2,100,5.3
+OTM Put,Monotonicity,1,0.00446221345569778,100,2.8,100,2.4,100,2.8,100,3.1,100,3.8
+OTM Call,Monotonicity,0,-0.0109024306407505,0,11.1,0,8.7,0,6.1,0,7.7,0,7.2

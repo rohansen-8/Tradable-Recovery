@@ -1,0 +1,6 @@
+stage,lambda,folder,T_grid,B,nMC
+chj_increasing_t,0.1,lambda_1e-1,[500 1000 2000 5000 10000],1000,10000
+chj_increasing_t,0.01,lambda_1e-2,[500 1000 2000 5000 10000],1000,10000
+chj_increasing_t,0.001,lambda_1e-3,[500 1000 2000 5000 10000],1000,10000
+chj_increasing_t,0.0001,lambda_1e-4,[500 1000 2000 5000 10000],1000,10000
+chj_increasing_t,1e-06,lambda_1e-6,[500 1000 2000 5000 10000],1000,10000

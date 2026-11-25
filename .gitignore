@@ -1,0 +1,75 @@
+# ---------------------------------------------------------------------------
+# Restricted data (OptionMetrics / WRDS). Never public.
+# ---------------------------------------------------------------------------
+data/*
+!data/README.md
+!data/SHA256SUMS
+data_reconstructed/
+*.zip
+*.tar
+*.gz
+*.7z
+*.parquet
+*.npz
+*.pkl
+
+# ---------------------------------------------------------------------------
+# Results: only curated, shareable outputs are tracked (tables, aggregate
+# CSVs, figures, READMEs). Checkpoints, per-replication files and date-level
+# series derived from licensed option data stay local.
+# ---------------------------------------------------------------------------
+results/**
+!results/**/
+!results/**/*.csv
+!results/**/*.tex
+!results/**/*.png
+!results/**/*.pdf
+!results/**/README.md
+results/**/rejection_studies/
+results/**/progress/
+results/**/windows/
+results/**/_scratch*/
+results/**/*_raw*.csv
+results/**/*_return_pairs.csv
+results/**/*_returns.csv
+results/**/*_components.csv
+results/**/*_by_date.csv
+results/**/*_sample.csv
+results/**/*_accounting.csv
+results/performance/**/is_*.csv
+results/simulations/**/moments/
+results/simulations/**/diagnostics/
+
+# ---------------------------------------------------------------------------
+# MATLAB / Python / OS
+# ---------------------------------------------------------------------------
+*.mat
+*.asv
+*.m~
+*.slxc
+*.mex*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+.vscode/
+.idea/
+
+# ---------------------------------------------------------------------------
+# Local only, never public: private materials (Python validation provenance,
+# replication report, history bundle), test fixtures derived from licensed
+# data, run-scratch folders and editor/assistant workspaces.
+# ---------------------------------------------------------------------------
+private/
+tests/fixtures/ledoit_wolf_cv/
+_scratch*/
+plots/
+.claude/
+CLAUDE.md
+
+# regenerated outputs of run_replication (compared with results/, never published)
+results_replication/
+
+# OOS window-file verification written by make_oos_tables (local provenance)
+results/empirical_oos/**/oos_verification.csv

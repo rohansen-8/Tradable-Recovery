@@ -1,0 +1,5 @@
+design_id,design_group,horizon,model,Tval,B,shape_rows,regularization_rows,recovery_rows,lambda_fit_median,lambda_inference_median,lambda_changed_freq,mean_reject_5pct,min_p_value,max_p_value
+6,empirical_T,quarterly,BS,97,2000,18000,0,0,0.01,0.01,0,0.164,9.99900009999e-05,1
+7,empirical_T,monthly,BS,273,2000,18000,0,0,0.01,0.01,0,0.156055555555556,9.99900009999e-05,1
+8,empirical_T,weekly,BS,694,2000,18000,0,0,0.01,0.01,0,0.121833333333333,9.99900009999e-05,1
+9,empirical_T,daily,BS,1964,2000,18000,0,0,0.01,0.01,0,0.0852777777777778,9.99900009999e-05,1

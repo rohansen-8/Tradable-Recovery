@@ -1,0 +1,2 @@
+cell,T,sr_strategy,sr_vswap,delta_sr,d_observed,block_size,n_valid,p_one_sided,p_two_sided,stars,block_preserved,p_preserved,p_diff_over_mcse,stars_preserved,ks_p_dstar,ks_p_sestar,ks_p_deltastar,max_abs_coverage_diff
+oos_monthly,81,0.294504410886933,-0.365507278655211,0.660011689542145,1.73236532644889,2,4999,0.0418,0.1154,**,2,0.0432,-0.344272354323498,**,0.691501487657249,0.227058818655163,0.724912413203896,37
